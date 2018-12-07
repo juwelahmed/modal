@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Modal</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="main.css" />
+</head>
+<body>
+    <div class="modal modal--slide-down modal--sized">
+        <div class="modal__background">
+            <div class="modal__content">
+                <div class="modal__header">
+                    <h1 class="modal__title">Title</h1>
+                    <button onclick="closeModal();" class="modal__close">&#10005;</button>
+                </div>
+                <div class="modal__body">
+                    <p>The proper question is which character should be used. The use of entity references for characters adds no semantics. There is no formal standard on denoting dimensions, but clearly this is about multiplication rather than the Latin letter x, so “x” (&times;) is the correct character.</p>
+                    <br>
+                    <p>In practice, this is more of an orthography and typography question than about “semantic web”. Search engines, browsers, etc., don’t really care; it’s the human readers that matter.</p>
+                </div>
+                <div class="modal__footer">
+                    <button class="modal__action">Apply</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal modal--slide-up modal--sized">
+        <div class="modal__background">
+            <div class="modal__content">
+                <div class="modal__header">
+                    <h1 class="modal__title">Title</h1>
+                    <button onclick="closeModal();" class="modal__close">&#10005;</button>
+                </div>
+                <div class="modal__body">
+                    <p>The proper question is which character should be used. The use of entity references for characters adds no semantics. There is no formal standard on denoting dimensions, but clearly this is about multiplication rather than the Latin letter x, so “x” (&times;) is the correct character.</p>
+                    <br>
+                    <p>In practice, this is more of an orthography and typography question than about “semantic web”. Search engines, browsers, etc., don’t really care; it’s the human readers that matter.</p>
+                </div>
+                <div class="modal__footer">
+                    <button class="modal__action">Apply</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal modal--slide-right modal--full">
+        <div class="modal__background">
+            <div class="modal__content">
+                <div class="modal__header">
+                    <h1 class="modal__title">Title</h1>
+                    <button onclick="closeModal();" class="modal__close">&#10005;</button>
+                </div>
+                <div class="modal__body">
+                    <p>The proper question is which character should be used. The use of entity references for characters adds no semantics. There is no formal standard on denoting dimensions, but clearly this is about multiplication rather than the Latin letter x, so “x” (&times;) is the correct character.</p>
+                    <br>
+                    <p>In practice, this is more of an orthography and typography question than about “semantic web”. Search engines, browsers, etc., don’t really care; it’s the human readers that matter.</p>
+                </div>
+                <div class="modal__footer">
+                    <button class="modal__action">Apply</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal modal--slide-left modal--full">
+        <div class="modal__background">
+            <div class="modal__content">
+                <div class="modal__header">
+                    <h1 class="modal__title">Title</h1>
+                    <button onclick="closeModal();" class="modal__close">&#10005;</button>
+                </div>
+                <div class="modal__body">
+                    <p>The proper question is which character should be used. The use of entity references for characters adds no semantics. There is no formal standard on denoting dimensions, but clearly this is about multiplication rather than the Latin letter x, so “x” (&times;) is the correct character.</p>
+                    <br>
+                    <p>In practice, this is more of an orthography and typography question than about “semantic web”. Search engines, browsers, etc., don’t really care; it’s the human readers that matter.</p>
+                </div>
+                <div class="modal__footer">
+                    <button class="modal__action">Apply</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal modal--scale modal--sized">
+        <div class="modal__background">
+            <div class="modal__content">
+                <div class="modal__header">
+                    <h1 class="modal__title">Title</h1>
+                    <button onclick="closeModal();" class="modal__close">&#10005;</button>
+                </div>
+                <div class="modal__body">
+                    <p>The proper question is which character should be used. The use of entity references for characters adds no semantics. There is no formal standard on denoting dimensions, but clearly this is about multiplication rather than the Latin letter x, so “x” (&times;) is the correct character.</p>
+                    <br>
+                    <p>In practice, this is more of an orthography and typography question than about “semantic web”. Search engines, browsers, etc., don’t really care; it’s the human readers that matter.</p>
+                </div>
+                <div class="modal__footer">
+                    <button class="modal__action">Apply</button>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="buttons">
+        <button type="button" onclick="showModal('modal--slide-down');">Show Modal(Slide Down)</button>
+        <button type="button" onclick="showModal('modal--slide-up');">Show Modal(Slide Up)</button>
+        <button type="button" onclick="showModal('modal--slide-right');">Show Modal(Slide Right)</button>
+        <button type="button" onclick="showModal('modal--slide-left');">Show Modal(Slide left)</button>
+        <button type="button" onclick="showModal('modal--scale');">Show Modal(Scale)</button>
+    </div>
+    
+
+    <script src="main.js"></script>
+</body>
+</html>
